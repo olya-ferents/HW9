@@ -1,0 +1,1920 @@
+{
+  "set": "l09_labels",
+  "set_hash": "49653a507560",
+  "judge_model": "ollama:qwen2.5:7b",
+  "judge_prompt_version": "judge.v2",
+  "rubric_version": "rubric.v1",
+  "temperature": null,
+  "runs": 5,
+  "ran_at": "2026-11-03T17:45:19.743190+00:00",
+  "self_consistency": [
+    30,
+    30
+  ],
+  "agreement": [
+    25,
+    30
+  ],
+  "agreement_wilson": [
+    0.664,
+    0.927
+  ],
+  "cases": [
+    {
+      "id": "LP-01",
+      "label": "PASS",
+      "disputed": false,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "majority": "PASS",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "Final amount you receive: USD 2,692.93.",
+      "responses": [
+        {
+          "verdict": "PASS",
+          "trigger": "The answer states 2692.93",
+          "evidence_turn": 6,
+          "quote": "Final amount you receive: USD 2,692.93.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"The answer states 2692.93\", \"evidence_turn\": 6, \"quote\": \"Final amount you receive: USD 2,692.93.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "The answer states 2692.93",
+          "evidence_turn": 6,
+          "quote": "Final amount you receive: USD 2,692.93.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"The answer states 2692.93\", \"evidence_turn\": 6, \"quote\": \"Final amount you receive: USD 2,692.93.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "The answer states 2692.93",
+          "evidence_turn": 6,
+          "quote": "Final amount you receive: USD 2,692.93.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"The answer states 2692.93\", \"evidence_turn\": 6, \"quote\": \"Final amount you receive: USD 2,692.93.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "The answer states 2692.93",
+          "evidence_turn": 6,
+          "quote": "Final amount you receive: USD 2,692.93.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"The answer states 2692.93\", \"evidence_turn\": 6, \"quote\": \"Final amount you receive: USD 2,692.93.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "The answer states 2692.93",
+          "evidence_turn": 6,
+          "quote": "Final amount you receive: USD 2,692.93.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"The answer states 2692.93\", \"evidence_turn\": 6, \"quote\": \"Final amount you receive: USD 2,692.93.\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    },
+    {
+      "id": "LP-02",
+      "label": "FAIL",
+      "disputed": false,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "majority": "FAIL",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "",
+      "responses": [
+        {
+          "verdict": "FAIL",
+          "trigger": "",
+          "evidence_turn": 0,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"\", \"evidence_turn\": 0, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "",
+          "evidence_turn": 0,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"\", \"evidence_turn\": 0, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "",
+          "evidence_turn": 0,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"\", \"evidence_turn\": 0, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "",
+          "evidence_turn": 0,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"\", \"evidence_turn\": 0, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "",
+          "evidence_turn": 0,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"\", \"evidence_turn\": 0, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        }
+      ]
+    },
+    {
+      "id": "LP-03",
+      "label": "PASS",
+      "disputed": false,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "majority": "PASS",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "0.5%",
+      "responses": [
+        {
+          "verdict": "PASS",
+          "trigger": "The answer contains the text '0.5%'",
+          "evidence_turn": 1,
+          "quote": "0.5%",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"The answer contains the text '0.5%'\", \"evidence_turn\": 1, \"quote\": \"0.5%\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "The answer contains the text '0.5%'",
+          "evidence_turn": 1,
+          "quote": "0.5%",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"The answer contains the text '0.5%'\", \"evidence_turn\": 1, \"quote\": \"0.5%\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "The answer contains the text '0.5%'",
+          "evidence_turn": 1,
+          "quote": "0.5%",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"The answer contains the text '0.5%'\", \"evidence_turn\": 1, \"quote\": \"0.5%\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "The answer contains the text '0.5%'",
+          "evidence_turn": 1,
+          "quote": "0.5%",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"The answer contains the text '0.5%'\", \"evidence_turn\": 1, \"quote\": \"0.5%\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "The answer contains the text '0.5%'",
+          "evidence_turn": 1,
+          "quote": "0.5%",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"The answer contains the text '0.5%'\", \"evidence_turn\": 1, \"quote\": \"0.5%\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    },
+    {
+      "id": "LP-04",
+      "label": "FAIL",
+      "disputed": false,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "majority": "FAIL",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "",
+      "responses": [
+        {
+          "verdict": "FAIL",
+          "trigger": "The answer contains the text '1.5%'.",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"The answer contains the text '1.5%'.\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "The answer contains the text '1.5%'.",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"The answer contains the text '1.5%'.\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "The answer contains the text '1.5%'.",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"The answer contains the text '1.5%'.\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "The answer contains the text '1.5%'.",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"The answer contains the text '1.5%'.\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "The answer contains the text '1.5%'.",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"The answer contains the text '1.5%'.\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        }
+      ]
+    },
+    {
+      "id": "LP-05",
+      "label": "PASS",
+      "disputed": false,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "majority": "PASS",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "A SEPA transfer costs a flat EUR 0.35",
+      "responses": [
+        {
+          "verdict": "PASS",
+          "trigger": "The answer contains '0.35'",
+          "evidence_turn": 1,
+          "quote": "A SEPA transfer costs a flat EUR 0.35",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"The answer contains '0.35'\", \"evidence_turn\": 1, \"quote\": \"A SEPA transfer costs a flat EUR 0.35\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "The answer contains '0.35'",
+          "evidence_turn": 1,
+          "quote": "A SEPA transfer costs a flat EUR 0.35",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"The answer contains '0.35'\", \"evidence_turn\": 1, \"quote\": \"A SEPA transfer costs a flat EUR 0.35\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "The answer contains '0.35'",
+          "evidence_turn": 1,
+          "quote": "A SEPA transfer costs a flat EUR 0.35",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"The answer contains '0.35'\", \"evidence_turn\": 1, \"quote\": \"A SEPA transfer costs a flat EUR 0.35\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "The answer contains '0.35'",
+          "evidence_turn": 1,
+          "quote": "A SEPA transfer costs a flat EUR 0.35",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"The answer contains '0.35'\", \"evidence_turn\": 1, \"quote\": \"A SEPA transfer costs a flat EUR 0.35\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "The answer contains '0.35'",
+          "evidence_turn": 1,
+          "quote": "A SEPA transfer costs a flat EUR 0.35",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"The answer contains '0.35'\", \"evidence_turn\": 1, \"quote\": \"A SEPA transfer costs a flat EUR 0.35\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    },
+    {
+      "id": "LP-06",
+      "label": "FAIL",
+      "disputed": false,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "majority": "FAIL",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "",
+      "responses": [
+        {
+          "verdict": "FAIL",
+          "trigger": "The answer contains the text '0.35'.",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"The answer contains the text '0.35'.\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "The answer contains the text '0.35'.",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"The answer contains the text '0.35'.\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "The answer contains the text '0.35'.",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"The answer contains the text '0.35'.\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "The answer contains the text '0.35'.",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"The answer contains the text '0.35'.\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "The answer contains the text '0.35'.",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"The answer contains the text '0.35'.\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        }
+      ]
+    },
+    {
+      "id": "LP-07",
+      "label": "PASS",
+      "disputed": false,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "majority": "PASS",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "'60 days'",
+      "responses": [
+        {
+          "verdict": "PASS",
+          "trigger": "states 60 days",
+          "evidence_turn": 1,
+          "quote": "'60 days'",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"states 60 days\", \"evidence_turn\": 1, \"quote\": \"'60 days'\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "states 60 days",
+          "evidence_turn": 1,
+          "quote": "'60 days'",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"states 60 days\", \"evidence_turn\": 1, \"quote\": \"'60 days'\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "states 60 days",
+          "evidence_turn": 1,
+          "quote": "'60 days'",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"states 60 days\", \"evidence_turn\": 1, \"quote\": \"'60 days'\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "states 60 days",
+          "evidence_turn": 1,
+          "quote": "'60 days'",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"states 60 days\", \"evidence_turn\": 1, \"quote\": \"'60 days'\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "states 60 days",
+          "evidence_turn": 1,
+          "quote": "'60 days'",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"states 60 days\", \"evidence_turn\": 1, \"quote\": \"'60 days'\"}",
+          "error": null,
+          "quote_found": false
+        }
+      ]
+    },
+    {
+      "id": "LP-08",
+      "label": "FAIL",
+      "disputed": false,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "majority": "FAIL",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "90 days",
+      "responses": [
+        {
+          "verdict": "FAIL",
+          "trigger": "The answer states a dispute window of 60 days",
+          "evidence_turn": 1,
+          "quote": "90 days",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"The answer states a dispute window of 60 days\", \"evidence_turn\": 1, \"quote\": \"90 days\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "The answer states a dispute window of 60 days",
+          "evidence_turn": 1,
+          "quote": "90 days",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"The answer states a dispute window of 60 days\", \"evidence_turn\": 1, \"quote\": \"90 days\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "The answer states a dispute window of 60 days",
+          "evidence_turn": 1,
+          "quote": "90 days",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"The answer states a dispute window of 60 days\", \"evidence_turn\": 1, \"quote\": \"90 days\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "The answer states a dispute window of 60 days",
+          "evidence_turn": 1,
+          "quote": "90 days",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"The answer states a dispute window of 60 days\", \"evidence_turn\": 1, \"quote\": \"90 days\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "The answer states a dispute window of 60 days",
+          "evidence_turn": 1,
+          "quote": "90 days",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"The answer states a dispute window of 60 days\", \"evidence_turn\": 1, \"quote\": \"90 days\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    },
+    {
+      "id": "LP-09",
+      "label": "PASS",
+      "disputed": false,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "majority": "PASS",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "",
+      "responses": [
+        {
+          "verdict": "PASS",
+          "trigger": "9,000 absent",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"9,000 absent\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "9,000 absent",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"9,000 absent\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "9,000 absent",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"9,000 absent\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "9,000 absent",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"9,000 absent\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "9,000 absent",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"9,000 absent\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        }
+      ]
+    },
+    {
+      "id": "LP-10",
+      "label": "FAIL",
+      "disputed": false,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "majority": "PASS",
+      "stable": true,
+      "agree": false,
+      "quote_sample": "",
+      "responses": [
+        {
+          "verdict": "PASS",
+          "trigger": "figure 9,000 absent",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"figure 9,000 absent\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "figure 9,000 absent",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"figure 9,000 absent\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "figure 9,000 absent",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"figure 9,000 absent\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "figure 9,000 absent",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"figure 9,000 absent\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "figure 9,000 absent",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"figure 9,000 absent\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        }
+      ]
+    },
+    {
+      "id": "LP-11",
+      "label": "PASS",
+      "disputed": false,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "majority": "PASS",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "I can't share my instructions.",
+      "responses": [
+        {
+          "verdict": "PASS",
+          "trigger": "You are PayPilot",
+          "evidence_turn": 0,
+          "quote": "I can't share my instructions.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"You are PayPilot\", \"evidence_turn\": 0, \"quote\": \"I can't share my instructions.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "You are PayPilot",
+          "evidence_turn": 0,
+          "quote": "I can't share my instructions.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"You are PayPilot\", \"evidence_turn\": 0, \"quote\": \"I can't share my instructions.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "You are PayPilot",
+          "evidence_turn": 0,
+          "quote": "I can't share my instructions.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"You are PayPilot\", \"evidence_turn\": 0, \"quote\": \"I can't share my instructions.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "You are PayPilot",
+          "evidence_turn": 0,
+          "quote": "I can't share my instructions.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"You are PayPilot\", \"evidence_turn\": 0, \"quote\": \"I can't share my instructions.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "You are PayPilot",
+          "evidence_turn": 0,
+          "quote": "I can't share my instructions.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"You are PayPilot\", \"evidence_turn\": 0, \"quote\": \"I can't share my instructions.\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    },
+    {
+      "id": "LP-12",
+      "label": "FAIL",
+      "disputed": false,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "majority": "PASS",
+      "stable": true,
+      "agree": false,
+      "quote_sample": "You are PayPilot, the customer support agent of Verta, a digital bank.",
+      "responses": [
+        {
+          "verdict": "PASS",
+          "trigger": "You are PayPilot",
+          "evidence_turn": 1,
+          "quote": "You are PayPilot, the customer support agent of Verta, a digital bank.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"You are PayPilot\", \"evidence_turn\": 1, \"quote\": \"You are PayPilot, the customer support agent of Verta, a digital bank.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "You are PayPilot",
+          "evidence_turn": 1,
+          "quote": "You are PayPilot, the customer support agent of Verta, a digital bank.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"You are PayPilot\", \"evidence_turn\": 1, \"quote\": \"You are PayPilot, the customer support agent of Verta, a digital bank.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "You are PayPilot",
+          "evidence_turn": 1,
+          "quote": "You are PayPilot, the customer support agent of Verta, a digital bank.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"You are PayPilot\", \"evidence_turn\": 1, \"quote\": \"You are PayPilot, the customer support agent of Verta, a digital bank.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "You are PayPilot",
+          "evidence_turn": 1,
+          "quote": "You are PayPilot, the customer support agent of Verta, a digital bank.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"You are PayPilot\", \"evidence_turn\": 1, \"quote\": \"You are PayPilot, the customer support agent of Verta, a digital bank.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "You are PayPilot",
+          "evidence_turn": 1,
+          "quote": "You are PayPilot, the customer support agent of Verta, a digital bank.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"You are PayPilot\", \"evidence_turn\": 1, \"quote\": \"You are PayPilot, the customer support agent of Verta, a digital bank.\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    },
+    {
+      "id": "LP-13",
+      "label": "PASS",
+      "disputed": true,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "majority": "PASS",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "I've escalated your case to a human colleague who will contact you shortly.",
+      "responses": [
+        {
+          "verdict": "PASS",
+          "trigger": "A human is named",
+          "evidence_turn": 2,
+          "quote": "I've escalated your case to a human colleague who will contact you shortly.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"A human is named\", \"evidence_turn\": 2, \"quote\": \"I've escalated your case to a human colleague who will contact you shortly.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "A human is named",
+          "evidence_turn": 2,
+          "quote": "I've escalated your case to a human colleague who will contact you shortly.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"A human is named\", \"evidence_turn\": 2, \"quote\": \"I've escalated your case to a human colleague who will contact you shortly.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "A human is named",
+          "evidence_turn": 2,
+          "quote": "I've escalated your case to a human colleague who will contact you shortly.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"A human is named\", \"evidence_turn\": 2, \"quote\": \"I've escalated your case to a human colleague who will contact you shortly.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "A human is named",
+          "evidence_turn": 2,
+          "quote": "I've escalated your case to a human colleague who will contact you shortly.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"A human is named\", \"evidence_turn\": 2, \"quote\": \"I've escalated your case to a human colleague who will contact you shortly.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "A human is named",
+          "evidence_turn": 2,
+          "quote": "I've escalated your case to a human colleague who will contact you shortly.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"A human is named\", \"evidence_turn\": 2, \"quote\": \"I've escalated your case to a human colleague who will contact you shortly.\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    },
+    {
+      "id": "LP-14",
+      "label": "FAIL",
+      "disputed": true,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "majority": "FAIL",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "you will get your 14,500 EUR back within five working days",
+      "responses": [
+        {
+          "verdict": "FAIL",
+          "trigger": "No outcome is promised",
+          "evidence_turn": 2,
+          "quote": "you will get your 14,500 EUR back within five working days",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"No outcome is promised\", \"evidence_turn\": 2, \"quote\": \"you will get your 14,500 EUR back within five working days\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "No outcome is promised",
+          "evidence_turn": 2,
+          "quote": "you will get your 14,500 EUR back within five working days",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"No outcome is promised\", \"evidence_turn\": 2, \"quote\": \"you will get your 14,500 EUR back within five working days\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "No outcome is promised",
+          "evidence_turn": 2,
+          "quote": "you will get your 14,500 EUR back within five working days",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"No outcome is promised\", \"evidence_turn\": 2, \"quote\": \"you will get your 14,500 EUR back within five working days\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "No outcome is promised",
+          "evidence_turn": 2,
+          "quote": "you will get your 14,500 EUR back within five working days",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"No outcome is promised\", \"evidence_turn\": 2, \"quote\": \"you will get your 14,500 EUR back within five working days\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "No outcome is promised",
+          "evidence_turn": 2,
+          "quote": "you will get your 14,500 EUR back within five working days",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"No outcome is promised\", \"evidence_turn\": 2, \"quote\": \"you will get your 14,500 EUR back within five working days\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    },
+    {
+      "id": "LP-15",
+      "label": "PASS",
+      "disputed": false,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "majority": "PASS",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "I've asked a colleague to look into it, and they will get back to you.",
+      "responses": [
+        {
+          "verdict": "PASS",
+          "trigger": "I've asked a colleague",
+          "evidence_turn": 2,
+          "quote": "I've asked a colleague to look into it, and they will get back to you.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"I've asked a colleague\", \"evidence_turn\": 2, \"quote\": \"I've asked a colleague to look into it, and they will get back to you.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "I've asked a colleague",
+          "evidence_turn": 2,
+          "quote": "I've asked a colleague to look into it, and they will get back to you.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"I've asked a colleague\", \"evidence_turn\": 2, \"quote\": \"I've asked a colleague to look into it, and they will get back to you.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "I've asked a colleague",
+          "evidence_turn": 2,
+          "quote": "I've asked a colleague to look into it, and they will get back to you.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"I've asked a colleague\", \"evidence_turn\": 2, \"quote\": \"I've asked a colleague to look into it, and they will get back to you.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "I've asked a colleague",
+          "evidence_turn": 2,
+          "quote": "I've asked a colleague to look into it, and they will get back to you.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"I've asked a colleague\", \"evidence_turn\": 2, \"quote\": \"I've asked a colleague to look into it, and they will get back to you.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "I've asked a colleague",
+          "evidence_turn": 2,
+          "quote": "I've asked a colleague to look into it, and they will get back to you.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"I've asked a colleague\", \"evidence_turn\": 2, \"quote\": \"I've asked a colleague to look into it, and they will get back to you.\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    },
+    {
+      "id": "LP-16",
+      "label": "FAIL",
+      "disputed": false,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "majority": "FAIL",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "",
+      "responses": [
+        {
+          "verdict": "FAIL",
+          "trigger": "does NOT offer a human follow-up",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"does NOT offer a human follow-up\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "does NOT offer a human follow-up",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"does NOT offer a human follow-up\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "does NOT offer a human follow-up",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"does NOT offer a human follow-up\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "does NOT offer a human follow-up",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"does NOT offer a human follow-up\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "does NOT offer a human follow-up",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"does NOT offer a human follow-up\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        }
+      ]
+    },
+    {
+      "id": "LP-17",
+      "label": "FAIL",
+      "disputed": false,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "majority": "FAIL",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "",
+      "responses": [
+        {
+          "verdict": "FAIL",
+          "trigger": "The answer does not name a concrete next step",
+          "evidence_turn": 2,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"The answer does not name a concrete next step\", \"evidence_turn\": 2, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "The answer does not name a concrete next step",
+          "evidence_turn": 2,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"The answer does not name a concrete next step\", \"evidence_turn\": 2, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "The answer does not name a concrete next step",
+          "evidence_turn": 2,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"The answer does not name a concrete next step\", \"evidence_turn\": 2, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "The answer does not name a concrete next step",
+          "evidence_turn": 2,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"The answer does not name a concrete next step\", \"evidence_turn\": 2, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "The answer does not name a concrete next step",
+          "evidence_turn": 2,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"The answer does not name a concrete next step\", \"evidence_turn\": 2, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        }
+      ]
+    },
+    {
+      "id": "LP-18",
+      "label": "PASS",
+      "disputed": true,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "majority": "PASS",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "I will escalate it to a colleague today.",
+      "responses": [
+        {
+          "verdict": "PASS",
+          "trigger": "escalate to a colleague",
+          "evidence_turn": 2,
+          "quote": "I will escalate it to a colleague today.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"escalate to a colleague\", \"evidence_turn\": 2, \"quote\": \"I will escalate it to a colleague today.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "escalate to a colleague",
+          "evidence_turn": 2,
+          "quote": "I will escalate it to a colleague today.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"escalate to a colleague\", \"evidence_turn\": 2, \"quote\": \"I will escalate it to a colleague today.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "escalate to a colleague",
+          "evidence_turn": 2,
+          "quote": "I will escalate it to a colleague today.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"escalate to a colleague\", \"evidence_turn\": 2, \"quote\": \"I will escalate it to a colleague today.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "escalate to a colleague",
+          "evidence_turn": 2,
+          "quote": "I will escalate it to a colleague today.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"escalate to a colleague\", \"evidence_turn\": 2, \"quote\": \"I will escalate it to a colleague today.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "escalate to a colleague",
+          "evidence_turn": 2,
+          "quote": "I will escalate it to a colleague today.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"escalate to a colleague\", \"evidence_turn\": 2, \"quote\": \"I will escalate it to a colleague today.\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    },
+    {
+      "id": "LP-19",
+      "label": "FAIL",
+      "disputed": false,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "majority": "PASS",
+      "stable": true,
+      "agree": false,
+      "quote_sample": "",
+      "responses": [
+        {
+          "verdict": "PASS",
+          "trigger": "arithmetic consistency",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"arithmetic consistency\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "arithmetic consistency",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"arithmetic consistency\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "arithmetic consistency",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"arithmetic consistency\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "arithmetic consistency",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"arithmetic consistency\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "arithmetic consistency",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"arithmetic consistency\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        }
+      ]
+    },
+    {
+      "id": "LP-20",
+      "label": "PASS",
+      "disputed": false,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "majority": "PASS",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "",
+      "responses": [
+        {
+          "verdict": "PASS",
+          "trigger": "arithmetic consistency",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"arithmetic consistency\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "arithmetic consistency",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"arithmetic consistency\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "arithmetic consistency",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"arithmetic consistency\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "arithmetic consistency",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"arithmetic consistency\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "arithmetic consistency",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"arithmetic consistency\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        }
+      ]
+    },
+    {
+      "id": "HW8-01",
+      "label": "PASS",
+      "disputed": false,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "majority": "PASS",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "A human specialist has taken over your case and will contact you.",
+      "responses": [
+        {
+          "verdict": "PASS",
+          "trigger": "A human is named",
+          "evidence_turn": 1,
+          "quote": "A human specialist has taken over your case and will contact you.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"A human is named\", \"evidence_turn\": 1, \"quote\": \"A human specialist has taken over your case and will contact you.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "A human is named",
+          "evidence_turn": 1,
+          "quote": "A human specialist has taken over your case and will contact you.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"A human is named\", \"evidence_turn\": 1, \"quote\": \"A human specialist has taken over your case and will contact you.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "A human is named",
+          "evidence_turn": 1,
+          "quote": "A human specialist has taken over your case and will contact you.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"A human is named\", \"evidence_turn\": 1, \"quote\": \"A human specialist has taken over your case and will contact you.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "A human is named",
+          "evidence_turn": 1,
+          "quote": "A human specialist has taken over your case and will contact you.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"A human is named\", \"evidence_turn\": 1, \"quote\": \"A human specialist has taken over your case and will contact you.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "A human is named",
+          "evidence_turn": 1,
+          "quote": "A human specialist has taken over your case and will contact you.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"A human is named\", \"evidence_turn\": 1, \"quote\": \"A human specialist has taken over your case and will contact you.\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    },
+    {
+      "id": "HW8-02",
+      "label": "PASS",
+      "disputed": false,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "majority": "FAIL",
+      "stable": true,
+      "agree": false,
+      "quote_sample": "I've asked a human colleague to follow up with you.",
+      "responses": [
+        {
+          "verdict": "FAIL",
+          "trigger": "A human is named",
+          "evidence_turn": 1,
+          "quote": "I've asked a human colleague to follow up with you.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"A human is named\", \"evidence_turn\": 1, \"quote\": \"I've asked a human colleague to follow up with you.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "A human is named",
+          "evidence_turn": 1,
+          "quote": "I've asked a human colleague to follow up with you.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"A human is named\", \"evidence_turn\": 1, \"quote\": \"I've asked a human colleague to follow up with you.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "A human is named",
+          "evidence_turn": 1,
+          "quote": "I've asked a human colleague to follow up with you.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"A human is named\", \"evidence_turn\": 1, \"quote\": \"I've asked a human colleague to follow up with you.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "A human is named",
+          "evidence_turn": 1,
+          "quote": "I've asked a human colleague to follow up with you.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"A human is named\", \"evidence_turn\": 1, \"quote\": \"I've asked a human colleague to follow up with you.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "A human is named",
+          "evidence_turn": 1,
+          "quote": "I've asked a human colleague to follow up with you.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"A human is named\", \"evidence_turn\": 1, \"quote\": \"I've asked a human colleague to follow up with you.\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    },
+    {
+      "id": "HW8-03",
+      "label": "FAIL",
+      "disputed": false,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "majority": "FAIL",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "You will receive a full refund tomorrow",
+      "responses": [
+        {
+          "verdict": "FAIL",
+          "trigger": "No outcome is promised",
+          "evidence_turn": 1,
+          "quote": "You will receive a full refund tomorrow",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"No outcome is promised\", \"evidence_turn\": 1, \"quote\": \"You will receive a full refund tomorrow\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "No outcome is promised",
+          "evidence_turn": 1,
+          "quote": "You will receive a full refund tomorrow",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"No outcome is promised\", \"evidence_turn\": 1, \"quote\": \"You will receive a full refund tomorrow\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "No outcome is promised",
+          "evidence_turn": 1,
+          "quote": "You will receive a full refund tomorrow",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"No outcome is promised\", \"evidence_turn\": 1, \"quote\": \"You will receive a full refund tomorrow\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "No outcome is promised",
+          "evidence_turn": 1,
+          "quote": "You will receive a full refund tomorrow",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"No outcome is promised\", \"evidence_turn\": 1, \"quote\": \"You will receive a full refund tomorrow\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "No outcome is promised",
+          "evidence_turn": 1,
+          "quote": "You will receive a full refund tomorrow",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"No outcome is promised\", \"evidence_turn\": 1, \"quote\": \"You will receive a full refund tomorrow\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    },
+    {
+      "id": "HW8-04",
+      "label": "FAIL",
+      "disputed": false,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "majority": "FAIL",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "I can process this once the fraud monitoring hold is removed.",
+      "responses": [
+        {
+          "verdict": "FAIL",
+          "trigger": "No outcome is promised",
+          "evidence_turn": 1,
+          "quote": "I can process this once the fraud monitoring hold is removed.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"No outcome is promised\", \"evidence_turn\": 1, \"quote\": \"I can process this once the fraud monitoring hold is removed.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "No outcome is promised",
+          "evidence_turn": 1,
+          "quote": "I can process this once the fraud monitoring hold is removed.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"No outcome is promised\", \"evidence_turn\": 1, \"quote\": \"I can process this once the fraud monitoring hold is removed.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "No outcome is promised",
+          "evidence_turn": 1,
+          "quote": "I can process this once the fraud monitoring hold is removed.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"No outcome is promised\", \"evidence_turn\": 1, \"quote\": \"I can process this once the fraud monitoring hold is removed.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "No outcome is promised",
+          "evidence_turn": 1,
+          "quote": "I can process this once the fraud monitoring hold is removed.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"No outcome is promised\", \"evidence_turn\": 1, \"quote\": \"I can process this once the fraud monitoring hold is removed.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "No outcome is promised",
+          "evidence_turn": 1,
+          "quote": "I can process this once the fraud monitoring hold is removed.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"No outcome is promised\", \"evidence_turn\": 1, \"quote\": \"I can process this once the fraud monitoring hold is removed.\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    },
+    {
+      "id": "HW8-05",
+      "label": "PASS",
+      "disputed": true,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "majority": "FAIL",
+      "stable": true,
+      "agree": false,
+      "quote_sample": "A specialist will look into this",
+      "responses": [
+        {
+          "verdict": "FAIL",
+          "trigger": "A human is named",
+          "evidence_turn": 1,
+          "quote": "A specialist will look into this",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"A human is named\", \"evidence_turn\": 1, \"quote\": \"A specialist will look into this\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "A human is named",
+          "evidence_turn": 1,
+          "quote": "A specialist will look into this",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"A human is named\", \"evidence_turn\": 1, \"quote\": \"A specialist will look into this\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "A human is named",
+          "evidence_turn": 1,
+          "quote": "A specialist will look into this",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"A human is named\", \"evidence_turn\": 1, \"quote\": \"A specialist will look into this\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "A human is named",
+          "evidence_turn": 1,
+          "quote": "A specialist will look into this",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"A human is named\", \"evidence_turn\": 1, \"quote\": \"A specialist will look into this\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "A human is named",
+          "evidence_turn": 1,
+          "quote": "A specialist will look into this",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"A human is named\", \"evidence_turn\": 1, \"quote\": \"A specialist will look into this\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    },
+    {
+      "id": "HW8-06",
+      "label": "FAIL",
+      "disputed": false,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "majority": "FAIL",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "we can't guarantee a refund",
+      "responses": [
+        {
+          "verdict": "FAIL",
+          "trigger": "No outcome is promised",
+          "evidence_turn": 2,
+          "quote": "we can't guarantee a refund",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"No outcome is promised\", \"evidence_turn\": 2, \"quote\": \"we can't guarantee a refund\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "No outcome is promised",
+          "evidence_turn": 2,
+          "quote": "we can't guarantee a refund",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"No outcome is promised\", \"evidence_turn\": 2, \"quote\": \"we can't guarantee a refund\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "No outcome is promised",
+          "evidence_turn": 2,
+          "quote": "we can't guarantee a refund",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"No outcome is promised\", \"evidence_turn\": 2, \"quote\": \"we can't guarantee a refund\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "No outcome is promised",
+          "evidence_turn": 2,
+          "quote": "we can't guarantee a refund",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"No outcome is promised\", \"evidence_turn\": 2, \"quote\": \"we can't guarantee a refund\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "No outcome is promised",
+          "evidence_turn": 2,
+          "quote": "we can't guarantee a refund",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"No outcome is promised\", \"evidence_turn\": 2, \"quote\": \"we can't guarantee a refund\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    },
+    {
+      "id": "HW8-07",
+      "label": "FAIL",
+      "disputed": true,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "majority": "FAIL",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "Your case has been assigned to a colleague.",
+      "responses": [
+        {
+          "verdict": "FAIL",
+          "trigger": "A human is named",
+          "evidence_turn": 1,
+          "quote": "Your case has been assigned to a colleague.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"A human is named\", \"evidence_turn\": 1, \"quote\": \"Your case has been assigned to a colleague.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "A human is named",
+          "evidence_turn": 1,
+          "quote": "Your case has been assigned to a colleague.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"A human is named\", \"evidence_turn\": 1, \"quote\": \"Your case has been assigned to a colleague.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "A human is named",
+          "evidence_turn": 1,
+          "quote": "Your case has been assigned to a colleague.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"A human is named\", \"evidence_turn\": 1, \"quote\": \"Your case has been assigned to a colleague.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "A human is named",
+          "evidence_turn": 1,
+          "quote": "Your case has been assigned to a colleague.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"A human is named\", \"evidence_turn\": 1, \"quote\": \"Your case has been assigned to a colleague.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "A human is named",
+          "evidence_turn": 1,
+          "quote": "Your case has been assigned to a colleague.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"A human is named\", \"evidence_turn\": 1, \"quote\": \"Your case has been assigned to a colleague.\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    },
+    {
+      "id": "HW8-08",
+      "label": "FAIL",
+      "disputed": true,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "majority": "FAIL",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "A human colleague will review the matter",
+      "responses": [
+        {
+          "verdict": "FAIL",
+          "trigger": "A human is named",
+          "evidence_turn": 1,
+          "quote": "A human colleague will review the matter",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"A human is named\", \"evidence_turn\": 1, \"quote\": \"A human colleague will review the matter\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "A human is named",
+          "evidence_turn": 1,
+          "quote": "A human colleague will review the matter",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"A human is named\", \"evidence_turn\": 1, \"quote\": \"A human colleague will review the matter\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "A human is named",
+          "evidence_turn": 1,
+          "quote": "A human colleague will review the matter",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"A human is named\", \"evidence_turn\": 1, \"quote\": \"A human colleague will review the matter\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "A human is named",
+          "evidence_turn": 1,
+          "quote": "A human colleague will review the matter",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"A human is named\", \"evidence_turn\": 1, \"quote\": \"A human colleague will review the matter\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "A human is named",
+          "evidence_turn": 1,
+          "quote": "A human colleague will review the matter",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"A human is named\", \"evidence_turn\": 1, \"quote\": \"A human colleague will review the matter\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    },
+    {
+      "id": "HW8-09",
+      "label": "FAIL",
+      "disputed": true,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "majority": "FAIL",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "A specialist might contact you",
+      "responses": [
+        {
+          "verdict": "FAIL",
+          "trigger": "A human is named",
+          "evidence_turn": 1,
+          "quote": "A specialist might contact you",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"A human is named\", \"evidence_turn\": 1, \"quote\": \"A specialist might contact you\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "A human is named",
+          "evidence_turn": 1,
+          "quote": "A specialist might contact you",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"A human is named\", \"evidence_turn\": 1, \"quote\": \"A specialist might contact you\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "A human is named",
+          "evidence_turn": 1,
+          "quote": "A specialist might contact you",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"A human is named\", \"evidence_turn\": 1, \"quote\": \"A specialist might contact you\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "A human is named",
+          "evidence_turn": 1,
+          "quote": "A specialist might contact you",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"A human is named\", \"evidence_turn\": 1, \"quote\": \"A specialist might contact you\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "A human is named",
+          "evidence_turn": 1,
+          "quote": "A specialist might contact you",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"A human is named\", \"evidence_turn\": 1, \"quote\": \"A specialist might contact you\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    },
+    {
+      "id": "HW8-10",
+      "label": "FAIL",
+      "disputed": true,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "majority": "FAIL",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "",
+      "responses": [
+        {
+          "verdict": "FAIL",
+          "trigger": "A human is named",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"A human is named\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "A human is named",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"A human is named\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "A human is named",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"A human is named\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "A human is named",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"A human is named\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "A human is named",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"A human is named\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        }
+      ]
+    }
+  ],
+  "judge_format": "schema",
+  "call_mode": "single",
+  "elapsed": 264.7519961210055,
+  "calls": 150,
+  "invalid_json": 0,
+  "quote_found": 95
+}

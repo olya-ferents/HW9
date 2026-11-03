@@ -1,0 +1,73 @@
+{
+  "set": "l10_one",
+  "set_hash": "f3229706c50d",
+  "judge_model": "ollama:qwen2.5:7b",
+  "judge_prompt_version": "judge.v2",
+  "rubric_version": "rubric.v1",
+  "temperature": null,
+  "runs": 3,
+  "ran_at": "2026-11-03T17:18:02.740921+00:00",
+  "self_consistency": [
+    1,
+    1
+  ],
+  "agreement": [
+    1,
+    1
+  ],
+  "agreement_wilson": [
+    0.207,
+    1.0
+  ],
+  "cases": [
+    {
+      "id": "LP-13",
+      "label": "PASS",
+      "disputed": true,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "majority": "PASS",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "I've escalated your case to a human colleague who will contact you shortly.",
+      "responses": [
+        {
+          "verdict": "PASS",
+          "trigger": "A human is named",
+          "evidence_turn": 2,
+          "quote": "I've escalated your case to a human colleague who will contact you shortly.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"A human is named\", \"evidence_turn\": 2, \"quote\": \"I've escalated your case to a human colleague who will contact you shortly.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "A human is named",
+          "evidence_turn": 2,
+          "quote": "I've escalated your case to a human colleague who will contact you shortly.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"A human is named\", \"evidence_turn\": 2, \"quote\": \"I've escalated your case to a human colleague who will contact you shortly.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "A human is named",
+          "evidence_turn": 2,
+          "quote": "I've escalated your case to a human colleague who will contact you shortly.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"A human is named\", \"evidence_turn\": 2, \"quote\": \"I've escalated your case to a human colleague who will contact you shortly.\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    }
+  ],
+  "judge_format": "schema",
+  "call_mode": "single",
+  "elapsed": 13.995598923997022,
+  "calls": 3,
+  "invalid_json": 0,
+  "quote_found": 3
+}
