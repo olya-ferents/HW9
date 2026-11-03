@@ -12,7 +12,7 @@
 - [Конфігурація без ключів](./judge.local.env).
 - [Узагальнений шаблон](./model-selection-recommendation.template.md).
 - [Рядок вартості L08](./cost-model.md).
-- [Звіти](./evals/reports/) і [журнал виконання](./hw9.md).
+- [Звіти](./evals/reports/).
 
 ## Відтворення
 
