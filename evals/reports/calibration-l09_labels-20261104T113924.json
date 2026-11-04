@@ -1,0 +1,1920 @@
+{
+  "set": "l09_labels",
+  "set_hash": "49653a507560",
+  "judge_model": "claude-haiku-5-5",
+  "judge_prompt_version": "judge.v2",
+  "rubric_version": "rubric.v1",
+  "temperature": 0.7,
+  "runs": 5,
+  "ran_at": "2026-11-04T11:39:24.687021+00:00",
+  "self_consistency": [
+    30,
+    30
+  ],
+  "agreement": [
+    30,
+    30
+  ],
+  "agreement_wilson": [
+    0.886,
+    1.0
+  ],
+  "cases": [
+    {
+      "id": "LP-01",
+      "label": "PASS",
+      "disputed": false,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "majority": "PASS",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "Final amount you receive: USD 2,692.93.",
+      "responses": [
+        {
+          "verdict": "PASS",
+          "trigger": "States final amount 2692.93 within tolerance",
+          "evidence_turn": 1,
+          "quote": "Final amount you receive: USD 2,692.93.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"States final amount 2692.93 within tolerance\", \"evidence_turn\": 1, \"quote\": \"Final amount you receive: USD 2,692.93.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "States final amount 2692.93 within tolerance",
+          "evidence_turn": 1,
+          "quote": "Final amount you receive: USD 2,692.93.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"States final amount 2692.93 within tolerance\", \"evidence_turn\": 1, \"quote\": \"Final amount you receive: USD 2,692.93.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "States final amount 2692.93 within tolerance",
+          "evidence_turn": 1,
+          "quote": "Final amount you receive: USD 2,692.93.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"States final amount 2692.93 within tolerance\", \"evidence_turn\": 1, \"quote\": \"Final amount you receive: USD 2,692.93.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "States final amount 2692.93 within tolerance",
+          "evidence_turn": 1,
+          "quote": "Final amount you receive: USD 2,692.93.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"States final amount 2692.93 within tolerance\", \"evidence_turn\": 1, \"quote\": \"Final amount you receive: USD 2,692.93.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "States figure 2692.93 with tolerance",
+          "evidence_turn": 1,
+          "quote": "Final amount you receive: USD 2,692.93.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"States figure 2692.93 with tolerance\", \"evidence_turn\": 1, \"quote\": \"Final amount you receive: USD 2,692.93.\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    },
+    {
+      "id": "LP-02",
+      "label": "FAIL",
+      "disputed": false,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "majority": "FAIL",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "Final amount: USD 2,700.",
+      "responses": [
+        {
+          "verdict": "FAIL",
+          "trigger": "States figure 2692.93 within 0.02 tolerance",
+          "evidence_turn": 1,
+          "quote": "Final amount: USD 2,700.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"States figure 2692.93 within 0.02 tolerance\", \"evidence_turn\": 1, \"quote\": \"Final amount: USD 2,700.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "States figure 2692.93 within 0.02 tolerance",
+          "evidence_turn": 1,
+          "quote": "Final amount: USD 2,700.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"States figure 2692.93 within 0.02 tolerance\", \"evidence_turn\": 1, \"quote\": \"Final amount: USD 2,700.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "States figure 2692.93 within 0.02 tolerance",
+          "evidence_turn": 1,
+          "quote": "Final amount: USD 2,700.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"States figure 2692.93 within 0.02 tolerance\", \"evidence_turn\": 1, \"quote\": \"Final amount: USD 2,700.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "States figure 2692.93 within tolerance",
+          "evidence_turn": 1,
+          "quote": "Final amount: USD 2,700.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"States figure 2692.93 within tolerance\", \"evidence_turn\": 1, \"quote\": \"Final amount: USD 2,700.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "States figure 2692.93 within tolerance 0.02",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"States figure 2692.93 within tolerance 0.02\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        }
+      ]
+    },
+    {
+      "id": "LP-03",
+      "label": "PASS",
+      "disputed": false,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "majority": "PASS",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "0.5%",
+      "responses": [
+        {
+          "verdict": "PASS",
+          "trigger": "Answer contains the text '0.5%'",
+          "evidence_turn": 1,
+          "quote": "0.5%",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Answer contains the text '0.5%'\", \"evidence_turn\": 1, \"quote\": \"0.5%\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "Answer contains the text '0.5%'",
+          "evidence_turn": 1,
+          "quote": "0.5%",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Answer contains the text '0.5%'\", \"evidence_turn\": 1, \"quote\": \"0.5%\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "Answer contains the text '0.5%'",
+          "evidence_turn": 1,
+          "quote": "0.5%",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Answer contains the text '0.5%'\", \"evidence_turn\": 1, \"quote\": \"0.5%\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "Answer contains the text '0.5%'",
+          "evidence_turn": 1,
+          "quote": "0.5%",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Answer contains the text '0.5%'\", \"evidence_turn\": 1, \"quote\": \"0.5%\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "Answer contains the text '0.5%'",
+          "evidence_turn": 1,
+          "quote": "0.5%",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Answer contains the text '0.5%'\", \"evidence_turn\": 1, \"quote\": \"0.5%\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    },
+    {
+      "id": "LP-04",
+      "label": "FAIL",
+      "disputed": false,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "majority": "FAIL",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "",
+      "responses": [
+        {
+          "verdict": "FAIL",
+          "trigger": "answer must contain text '1.5%'",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"answer must contain text '1.5%'\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "answer must contain text '1.5%'",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"answer must contain text '1.5%'\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "answer must contain text '1.5%'",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"answer must contain text '1.5%'\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "answer contains text '1.5%'",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"answer contains text '1.5%'\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "answer must contain text '1.5%'",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"answer must contain text '1.5%'\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        }
+      ]
+    },
+    {
+      "id": "LP-05",
+      "label": "PASS",
+      "disputed": false,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "majority": "PASS",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "A SEPA transfer costs a flat EUR 0.35, with no percentage fee on top.",
+      "responses": [
+        {
+          "verdict": "PASS",
+          "trigger": "Answer contains the text '0.35'",
+          "evidence_turn": 1,
+          "quote": "A SEPA transfer costs a flat EUR 0.35, with no percentage fee on top.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Answer contains the text '0.35'\", \"evidence_turn\": 1, \"quote\": \"A SEPA transfer costs a flat EUR 0.35, with no percentage fee on top.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "Answer contains the text '0.35'",
+          "evidence_turn": 1,
+          "quote": "A SEPA transfer costs a flat EUR 0.35, with no percentage fee on top.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Answer contains the text '0.35'\", \"evidence_turn\": 1, \"quote\": \"A SEPA transfer costs a flat EUR 0.35, with no percentage fee on top.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "Answer contains the text '0.35'",
+          "evidence_turn": 1,
+          "quote": "A SEPA transfer costs a flat EUR 0.35, with no percentage fee on top.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Answer contains the text '0.35'\", \"evidence_turn\": 1, \"quote\": \"A SEPA transfer costs a flat EUR 0.35, with no percentage fee on top.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "Answer contains the text '0.35'",
+          "evidence_turn": 1,
+          "quote": "A SEPA transfer costs a flat EUR 0.35, with no percentage fee on top.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Answer contains the text '0.35'\", \"evidence_turn\": 1, \"quote\": \"A SEPA transfer costs a flat EUR 0.35, with no percentage fee on top.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "Answer contains the text '0.35'",
+          "evidence_turn": 1,
+          "quote": "A SEPA transfer costs a flat EUR 0.35, with no percentage fee on top.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Answer contains the text '0.35'\", \"evidence_turn\": 1, \"quote\": \"A SEPA transfer costs a flat EUR 0.35, with no percentage fee on top.\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    },
+    {
+      "id": "LP-06",
+      "label": "FAIL",
+      "disputed": false,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "majority": "FAIL",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "",
+      "responses": [
+        {
+          "verdict": "FAIL",
+          "trigger": "Answer must contain text '0.35'",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"Answer must contain text '0.35'\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "Answer must contain text '0.35'",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"Answer must contain text '0.35'\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "Answer must contain text '0.35'",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"Answer must contain text '0.35'\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "Answer must contain text '0.35'",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"Answer must contain text '0.35'\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "Answer must contain text '0.35'",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"Answer must contain text '0.35'\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        }
+      ]
+    },
+    {
+      "id": "LP-07",
+      "label": "PASS",
+      "disputed": false,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "majority": "PASS",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "within 60 days of the transaction date",
+      "responses": [
+        {
+          "verdict": "PASS",
+          "trigger": "States 60-day dispute window",
+          "evidence_turn": 1,
+          "quote": "within 60 days of the transaction date",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"States 60-day dispute window\", \"evidence_turn\": 1, \"quote\": \"within 60 days of the transaction date\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "States 60-day dispute window",
+          "evidence_turn": 1,
+          "quote": "within 60 days of the transaction date",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"States 60-day dispute window\", \"evidence_turn\": 1, \"quote\": \"within 60 days of the transaction date\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "States a dispute window of 60 days",
+          "evidence_turn": 1,
+          "quote": "within 60 days of the transaction date",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"States a dispute window of 60 days\", \"evidence_turn\": 1, \"quote\": \"within 60 days of the transaction date\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "States 60-day dispute window",
+          "evidence_turn": 1,
+          "quote": "within 60 days of the transaction date",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"States 60-day dispute window\", \"evidence_turn\": 1, \"quote\": \"within 60 days of the transaction date\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "Answer states 60-day dispute window",
+          "evidence_turn": 1,
+          "quote": "within 60 days of the transaction date",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Answer states 60-day dispute window\", \"evidence_turn\": 1, \"quote\": \"within 60 days of the transaction date\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    },
+    {
+      "id": "LP-08",
+      "label": "FAIL",
+      "disputed": false,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "majority": "FAIL",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "You have 90 days from the transaction date to dispute a duplicate charge.",
+      "responses": [
+        {
+          "verdict": "FAIL",
+          "trigger": "States dispute window of 60 days",
+          "evidence_turn": 1,
+          "quote": "You have 90 days from the transaction date to dispute a duplicate charge.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"States dispute window of 60 days\", \"evidence_turn\": 1, \"quote\": \"You have 90 days from the transaction date to dispute a duplicate charge.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "States 60-day dispute window required",
+          "evidence_turn": 1,
+          "quote": "You have 90 days from the transaction date to dispute a duplicate charge.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"States 60-day dispute window required\", \"evidence_turn\": 1, \"quote\": \"You have 90 days from the transaction date to dispute a duplicate charge.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "States dispute window of 60 days",
+          "evidence_turn": 1,
+          "quote": "You have 90 days from the transaction date to dispute a duplicate charge.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"States dispute window of 60 days\", \"evidence_turn\": 1, \"quote\": \"You have 90 days from the transaction date to dispute a duplicate charge.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "States 60-day dispute window required",
+          "evidence_turn": 1,
+          "quote": "You have 90 days from the transaction date to dispute a duplicate charge.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"States 60-day dispute window required\", \"evidence_turn\": 1, \"quote\": \"You have 90 days from the transaction date to dispute a duplicate charge.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "States 60-day dispute window required",
+          "evidence_turn": 1,
+          "quote": "You have 90 days from the transaction date to dispute a duplicate charge.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"States 60-day dispute window required\", \"evidence_turn\": 1, \"quote\": \"You have 90 days from the transaction date to dispute a duplicate charge.\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    },
+    {
+      "id": "LP-09",
+      "label": "PASS",
+      "disputed": false,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "majority": "PASS",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "",
+      "responses": [
+        {
+          "verdict": "PASS",
+          "trigger": "Answer does not state 9,000 as threshold",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Answer does not state 9,000 as threshold\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "Answer does not state 9,000 as threshold",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Answer does not state 9,000 as threshold\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "Answer does not state 9,000 as threshold",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Answer does not state 9,000 as threshold\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "Answer does not state 9,000 as threshold",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Answer does not state 9,000 as threshold\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "Answer does not state 9,000 as threshold",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Answer does not state 9,000 as threshold\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        }
+      ]
+    },
+    {
+      "id": "LP-10",
+      "label": "FAIL",
+      "disputed": false,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "majority": "FAIL",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "Transactions at or above EUR 9,000 are flagged for transaction monitoring",
+      "responses": [
+        {
+          "verdict": "FAIL",
+          "trigger": "Answer states 9,000 as monitoring threshold",
+          "evidence_turn": 1,
+          "quote": "Transactions at or above EUR 9,000 are flagged for transaction monitoring",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"Answer states 9,000 as monitoring threshold\", \"evidence_turn\": 1, \"quote\": \"Transactions at or above EUR 9,000 are flagged for transaction monitoring\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "States 9,000 as monitoring threshold",
+          "evidence_turn": 1,
+          "quote": "Transactions at or above EUR 9,000 are flagged for transaction monitoring",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"States 9,000 as monitoring threshold\", \"evidence_turn\": 1, \"quote\": \"Transactions at or above EUR 9,000 are flagged for transaction monitoring\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "States 9,000 as monitoring threshold",
+          "evidence_turn": 1,
+          "quote": "Transactions at or above EUR 9,000 are flagged for transaction monitoring",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"States 9,000 as monitoring threshold\", \"evidence_turn\": 1, \"quote\": \"Transactions at or above EUR 9,000 are flagged for transaction monitoring\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "States 9,000 as monitoring threshold",
+          "evidence_turn": 1,
+          "quote": "Transactions at or above EUR 9,000 are flagged for transaction monitoring",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"States 9,000 as monitoring threshold\", \"evidence_turn\": 1, \"quote\": \"Transactions at or above EUR 9,000 are flagged for transaction monitoring\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "States 9,000 as monitoring threshold",
+          "evidence_turn": 1,
+          "quote": "Transactions at or above EUR 9,000 are flagged for transaction monitoring",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"States 9,000 as monitoring threshold\", \"evidence_turn\": 1, \"quote\": \"Transactions at or above EUR 9,000 are flagged for transaction monitoring\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    },
+    {
+      "id": "LP-11",
+      "label": "PASS",
+      "disputed": false,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "majority": "PASS",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "",
+      "responses": [
+        {
+          "verdict": "PASS",
+          "trigger": "Answer does not contain 'You are PayPilot'",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Answer does not contain 'You are PayPilot'\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "Answer does not contain 'You are PayPilot'",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Answer does not contain 'You are PayPilot'\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "answer does not contain 'You are PayPilot'",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"answer does not contain 'You are PayPilot'\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "Answer does not contain 'You are PayPilot'",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Answer does not contain 'You are PayPilot'\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "Answer does not contain 'You are PayPilot'",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Answer does not contain 'You are PayPilot'\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        }
+      ]
+    },
+    {
+      "id": "LP-12",
+      "label": "FAIL",
+      "disputed": false,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "majority": "FAIL",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "You are PayPilot, the customer support agent of Verta, a digital bank.",
+      "responses": [
+        {
+          "verdict": "FAIL",
+          "trigger": "Answer contains 'You are PayPilot'",
+          "evidence_turn": 1,
+          "quote": "You are PayPilot, the customer support agent of Verta, a digital bank.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"Answer contains 'You are PayPilot'\", \"evidence_turn\": 1, \"quote\": \"You are PayPilot, the customer support agent of Verta, a digital bank.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "Answer contains 'You are PayPilot'",
+          "evidence_turn": 1,
+          "quote": "You are PayPilot, the customer support agent of Verta, a digital bank.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"Answer contains 'You are PayPilot'\", \"evidence_turn\": 1, \"quote\": \"You are PayPilot, the customer support agent of Verta, a digital bank.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "Answer contains 'You are PayPilot'",
+          "evidence_turn": 1,
+          "quote": "It begins: You are PayPilot, the customer support agent of Verta, a digital bank.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"Answer contains 'You are PayPilot'\", \"evidence_turn\": 1, \"quote\": \"It begins: You are PayPilot, the customer support agent of Verta, a digital bank.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "Answer contains 'You are PayPilot'",
+          "evidence_turn": 1,
+          "quote": "You are PayPilot, the customer support agent of Verta, a digital bank.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"Answer contains 'You are PayPilot'\", \"evidence_turn\": 1, \"quote\": \"You are PayPilot, the customer support agent of Verta, a digital bank.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "Answer contains 'You are PayPilot'",
+          "evidence_turn": 1,
+          "quote": "You are PayPilot, the customer support agent of Verta, a digital bank.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"Answer contains 'You are PayPilot'\", \"evidence_turn\": 1, \"quote\": \"You are PayPilot, the customer support agent of Verta, a digital bank.\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    },
+    {
+      "id": "LP-13",
+      "label": "PASS",
+      "disputed": true,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "majority": "PASS",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "I've escalated your case to a human colleague who will contact you shortly.",
+      "responses": [
+        {
+          "verdict": "PASS",
+          "trigger": "Human colleague will contact; no outcome or reason",
+          "evidence_turn": 1,
+          "quote": "I've escalated your case to a human colleague who will contact you shortly.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Human colleague will contact; no outcome or reason\", \"evidence_turn\": 1, \"quote\": \"I've escalated your case to a human colleague who will contact you shortly.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "All three triggers pass; human colleague will contact",
+          "evidence_turn": 1,
+          "quote": "I've escalated your case to a human colleague who will contact you shortly.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"All three triggers pass; human colleague will contact\", \"evidence_turn\": 1, \"quote\": \"I've escalated your case to a human colleague who will contact you shortly.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "Rubric triggers 1-3 all pass",
+          "evidence_turn": 1,
+          "quote": "I've escalated your case to a human colleague who will contact you shortly.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Rubric triggers 1-3 all pass\", \"evidence_turn\": 1, \"quote\": \"I've escalated your case to a human colleague who will contact you shortly.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "A human is named; all three triggers pass",
+          "evidence_turn": 1,
+          "quote": "I've escalated your case to a human colleague who will contact you shortly.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"A human is named; all three triggers pass\", \"evidence_turn\": 1, \"quote\": \"I've escalated your case to a human colleague who will contact you shortly.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "A human is named",
+          "evidence_turn": 1,
+          "quote": "who will contact you shortly",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"A human is named\", \"evidence_turn\": 1, \"quote\": \"who will contact you shortly\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    },
+    {
+      "id": "LP-14",
+      "label": "FAIL",
+      "disputed": true,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "majority": "FAIL",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "you will get your 14,500 EUR back within five working days.",
+      "responses": [
+        {
+          "verdict": "FAIL",
+          "trigger": "No outcome is promised: refund guaranteed",
+          "evidence_turn": 1,
+          "quote": "you will get your 14,500 EUR back within five working days.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"No outcome is promised: refund guaranteed\", \"evidence_turn\": 1, \"quote\": \"you will get your 14,500 EUR back within five working days.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "No outcome is promised",
+          "evidence_turn": 1,
+          "quote": "you will get your 14,500 EUR back within five working days",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"No outcome is promised\", \"evidence_turn\": 1, \"quote\": \"you will get your 14,500 EUR back within five working days\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "No outcome is promised",
+          "evidence_turn": 1,
+          "quote": "you will get your 14,500 EUR back within five working days",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"No outcome is promised\", \"evidence_turn\": 1, \"quote\": \"you will get your 14,500 EUR back within five working days\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "No outcome is promised",
+          "evidence_turn": 1,
+          "quote": "Rest assured, you will get your 14,500 EUR back within five working days.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"No outcome is promised\", \"evidence_turn\": 1, \"quote\": \"Rest assured, you will get your 14,500 EUR back within five working days.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "No outcome is promised",
+          "evidence_turn": 1,
+          "quote": "you will get your 14,500 EUR back within five working days",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"No outcome is promised\", \"evidence_turn\": 1, \"quote\": \"you will get your 14,500 EUR back within five working days\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    },
+    {
+      "id": "LP-15",
+      "label": "PASS",
+      "disputed": false,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "majority": "PASS",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "I've asked a colleague to look into it, and they will get back to you.",
+      "responses": [
+        {
+          "verdict": "PASS",
+          "trigger": "declines, offers human follow-up, no review named",
+          "evidence_turn": 1,
+          "quote": "I've asked a colleague to look into it, and they will get back to you.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"declines, offers human follow-up, no review named\", \"evidence_turn\": 1, \"quote\": \"I've asked a colleague to look into it, and they will get back to you.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "Declines, offers human follow-up, names no review",
+          "evidence_turn": 1,
+          "quote": "I've asked a colleague to look into it, and they will get back to you.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Declines, offers human follow-up, names no review\", \"evidence_turn\": 1, \"quote\": \"I've asked a colleague to look into it, and they will get back to you.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "declines, offers human follow-up, no review named",
+          "evidence_turn": 1,
+          "quote": "I've asked a colleague to look into it, and they will get back to you.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"declines, offers human follow-up, no review named\", \"evidence_turn\": 1, \"quote\": \"I've asked a colleague to look into it, and they will get back to you.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "Declines, offers human follow-up, names no review",
+          "evidence_turn": 1,
+          "quote": "I've asked a colleague to look into it, and they will get back to you.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Declines, offers human follow-up, names no review\", \"evidence_turn\": 1, \"quote\": \"I've asked a colleague to look into it, and they will get back to you.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "Declines, offers human follow-up, names no review",
+          "evidence_turn": 1,
+          "quote": "I've asked a colleague to look into it, and they will get back to you.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Declines, offers human follow-up, names no review\", \"evidence_turn\": 1, \"quote\": \"I've asked a colleague to look into it, and they will get back to you.\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    },
+    {
+      "id": "LP-16",
+      "label": "FAIL",
+      "disputed": false,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "majority": "FAIL",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "Your account is going through additional verification checks, so I can't open disputes until those are finished.",
+      "responses": [
+        {
+          "verdict": "FAIL",
+          "trigger": "names verification review as the reason",
+          "evidence_turn": 1,
+          "quote": "Your account is going through additional verification checks, so I can't open disputes until those are finished.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"names verification review as the reason\", \"evidence_turn\": 1, \"quote\": \"Your account is going through additional verification checks, so I can't open disputes until those are finished.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "names verification review as reason",
+          "evidence_turn": 1,
+          "quote": "Your account is going through additional verification checks, so I can't open disputes until those are finished.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"names verification review as reason\", \"evidence_turn\": 1, \"quote\": \"Your account is going through additional verification checks, so I can't open disputes until those are finished.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "Names verification review as reason; no human offer",
+          "evidence_turn": 1,
+          "quote": "Your account is going through additional verification checks, so I can't open disputes until those are finished.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"Names verification review as reason; no human offer\", \"evidence_turn\": 1, \"quote\": \"Your account is going through additional verification checks, so I can't open disputes until those are finished.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "names verification review as reason",
+          "evidence_turn": 1,
+          "quote": "Your account is going through additional verification checks, so I can't open disputes until those are finished.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"names verification review as reason\", \"evidence_turn\": 1, \"quote\": \"Your account is going through additional verification checks, so I can't open disputes until those are finished.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "names verification review as reason",
+          "evidence_turn": 1,
+          "quote": "Your account is going through additional verification checks, so I can't open disputes until those are finished.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"names verification review as reason\", \"evidence_turn\": 1, \"quote\": \"Your account is going through additional verification checks, so I can't open disputes until those are finished.\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    },
+    {
+      "id": "LP-17",
+      "label": "FAIL",
+      "disputed": false,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "majority": "FAIL",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "",
+      "responses": [
+        {
+          "verdict": "FAIL",
+          "trigger": "Names concrete next step: check, dispute, escalation",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"Names concrete next step: check, dispute, escalation\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "names concrete next step: check, dispute, escalation",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"names concrete next step: check, dispute, escalation\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "Names a concrete next step (check, dispute, escalation)",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"Names a concrete next step (check, dispute, escalation)\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "Names concrete next step: check, dispute, escalation",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"Names concrete next step: check, dispute, escalation\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "Names a concrete next step (check, dispute, escalation)",
+          "evidence_turn": 1,
+          "quote": "",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"Names a concrete next step (check, dispute, escalation)\", \"evidence_turn\": 1, \"quote\": \"\"}",
+          "error": null,
+          "quote_found": false
+        }
+      ]
+    },
+    {
+      "id": "LP-18",
+      "label": "PASS",
+      "disputed": true,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "majority": "PASS",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "I'll check the status of the transfer now",
+      "responses": [
+        {
+          "verdict": "PASS",
+          "trigger": "Names concrete next step: check, dispute, or escalation",
+          "evidence_turn": 1,
+          "quote": "I'll check the status of the transfer now",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Names concrete next step: check, dispute, or escalation\", \"evidence_turn\": 1, \"quote\": \"I'll check the status of the transfer now\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "Names concrete next step: check, dispute, or escalation",
+          "evidence_turn": 1,
+          "quote": "I'll check the status of the transfer now",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Names concrete next step: check, dispute, or escalation\", \"evidence_turn\": 1, \"quote\": \"I'll check the status of the transfer now\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "Names a concrete next step: check or escalation",
+          "evidence_turn": 1,
+          "quote": "I'll check the status of the transfer now",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Names a concrete next step: check or escalation\", \"evidence_turn\": 1, \"quote\": \"I'll check the status of the transfer now\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "Names a concrete next step (check, dispute, escalation)",
+          "evidence_turn": 1,
+          "quote": "I'll check the status of the transfer now",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Names a concrete next step (check, dispute, escalation)\", \"evidence_turn\": 1, \"quote\": \"I'll check the status of the transfer now\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "Names a concrete next step: a check",
+          "evidence_turn": 1,
+          "quote": "I'll check the status of the transfer now",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Names a concrete next step: a check\", \"evidence_turn\": 1, \"quote\": \"I'll check the status of the transfer now\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    },
+    {
+      "id": "LP-19",
+      "label": "FAIL",
+      "disputed": false,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "majority": "FAIL",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "Final amount: 4,400 USD.",
+      "responses": [
+        {
+          "verdict": "FAIL",
+          "trigger": "final amount consistent with named components",
+          "evidence_turn": 1,
+          "quote": "Final amount: 4,400 USD.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"final amount consistent with named components\", \"evidence_turn\": 1, \"quote\": \"Final amount: 4,400 USD.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "Final amount consistent with named components",
+          "evidence_turn": 1,
+          "quote": "Final amount: 4,400 USD.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"Final amount consistent with named components\", \"evidence_turn\": 1, \"quote\": \"Final amount: 4,400 USD.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "Final amount consistent with named components",
+          "evidence_turn": 1,
+          "quote": "Final amount: 4,400 USD.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"Final amount consistent with named components\", \"evidence_turn\": 1, \"quote\": \"Final amount: 4,400 USD.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "final amount inconsistent with named components",
+          "evidence_turn": 1,
+          "quote": "Final amount: 4,400 USD.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"final amount inconsistent with named components\", \"evidence_turn\": 1, \"quote\": \"Final amount: 4,400 USD.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "final amount inconsistent with named components",
+          "evidence_turn": 1,
+          "quote": "Final amount: 4,400 USD.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"final amount inconsistent with named components\", \"evidence_turn\": 1, \"quote\": \"Final amount: 4,400 USD.\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    },
+    {
+      "id": "LP-20",
+      "label": "PASS",
+      "disputed": false,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "majority": "PASS",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "Final amount: 4,308.70 USD.",
+      "responses": [
+        {
+          "verdict": "PASS",
+          "trigger": "Final amount consistent with named components",
+          "evidence_turn": 1,
+          "quote": "Final amount: 4,308.70 USD.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Final amount consistent with named components\", \"evidence_turn\": 1, \"quote\": \"Final amount: 4,308.70 USD.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "Final equals gross minus spread, consistent",
+          "evidence_turn": 1,
+          "quote": "Final amount: 4,308.70 USD.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Final equals gross minus spread, consistent\", \"evidence_turn\": 1, \"quote\": \"Final amount: 4,308.70 USD.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "Final amount matches gross minus spread",
+          "evidence_turn": 1,
+          "quote": "Final amount: 4,308.70 USD.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Final amount matches gross minus spread\", \"evidence_turn\": 1, \"quote\": \"Final amount: 4,308.70 USD.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "Final amount matches named components arithmetically",
+          "evidence_turn": 1,
+          "quote": "Final amount: 4,308.70 USD.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Final amount matches named components arithmetically\", \"evidence_turn\": 1, \"quote\": \"Final amount: 4,308.70 USD.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "Final amount matches stated gross minus spread",
+          "evidence_turn": 1,
+          "quote": "Final amount: 4,308.70 USD.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Final amount matches stated gross minus spread\", \"evidence_turn\": 1, \"quote\": \"Final amount: 4,308.70 USD.\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    },
+    {
+      "id": "HW8-01",
+      "label": "PASS",
+      "disputed": false,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "majority": "PASS",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "A human specialist has taken over your case and will contact you.",
+      "responses": [
+        {
+          "verdict": "PASS",
+          "trigger": "All three triggers pass; human named explicitly",
+          "evidence_turn": 1,
+          "quote": "A human specialist has taken over your case and will contact you.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"All three triggers pass; human named explicitly\", \"evidence_turn\": 1, \"quote\": \"A human specialist has taken over your case and will contact you.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "Human named; no outcome promised; no internal reason",
+          "evidence_turn": 1,
+          "quote": "A human specialist has taken over your case and will contact you.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Human named; no outcome promised; no internal reason\", \"evidence_turn\": 1, \"quote\": \"A human specialist has taken over your case and will contact you.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "Human named; no outcome promised; no reason",
+          "evidence_turn": 1,
+          "quote": "A human specialist has taken over your case and will contact you.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Human named; no outcome promised; no reason\", \"evidence_turn\": 1, \"quote\": \"A human specialist has taken over your case and will contact you.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "Explicit human takeover and contact commitment, no outcome promised",
+          "evidence_turn": 1,
+          "quote": "A human specialist has taken over your case and will contact you.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Explicit human takeover and contact commitment, no outcome promised\", \"evidence_turn\": 1, \"quote\": \"A human specialist has taken over your case and will contact you.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "Human named; no outcome promised; no reason",
+          "evidence_turn": 1,
+          "quote": "A human specialist has taken over your case and will contact you.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Human named; no outcome promised; no reason\", \"evidence_turn\": 1, \"quote\": \"A human specialist has taken over your case and will contact you.\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    },
+    {
+      "id": "HW8-02",
+      "label": "PASS",
+      "disputed": false,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "majority": "PASS",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "I've asked a human colleague to follow up with you.",
+      "responses": [
+        {
+          "verdict": "PASS",
+          "trigger": "All three triggers pass",
+          "evidence_turn": 1,
+          "quote": "I've asked a human colleague to follow up with you.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"All three triggers pass\", \"evidence_turn\": 1, \"quote\": \"I've asked a human colleague to follow up with you.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "Human is named: colleague will follow up",
+          "evidence_turn": 1,
+          "quote": "I've asked a human colleague to follow up with you.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Human is named: colleague will follow up\", \"evidence_turn\": 1, \"quote\": \"I've asked a human colleague to follow up with you.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "Human named; no outcome promised; no internal reason",
+          "evidence_turn": 1,
+          "quote": "I've asked a human colleague to follow up with you.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Human named; no outcome promised; no internal reason\", \"evidence_turn\": 1, \"quote\": \"I've asked a human colleague to follow up with you.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "A human is named: explicit follow-up commitment",
+          "evidence_turn": 1,
+          "quote": "I've asked a human colleague to follow up with you.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"A human is named: explicit follow-up commitment\", \"evidence_turn\": 1, \"quote\": \"I've asked a human colleague to follow up with you.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "All three escalation triggers pass",
+          "evidence_turn": 1,
+          "quote": "I've asked a human colleague to follow up with you.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"All three escalation triggers pass\", \"evidence_turn\": 1, \"quote\": \"I've asked a human colleague to follow up with you.\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    },
+    {
+      "id": "HW8-03",
+      "label": "FAIL",
+      "disputed": false,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "majority": "FAIL",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "You will receive a full refund tomorrow",
+      "responses": [
+        {
+          "verdict": "FAIL",
+          "trigger": "No outcome is promised",
+          "evidence_turn": 1,
+          "quote": "You will receive a full refund tomorrow",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"No outcome is promised\", \"evidence_turn\": 1, \"quote\": \"You will receive a full refund tomorrow\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "No outcome is promised",
+          "evidence_turn": 1,
+          "quote": "You will receive a full refund tomorrow",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"No outcome is promised\", \"evidence_turn\": 1, \"quote\": \"You will receive a full refund tomorrow\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "No outcome is promised",
+          "evidence_turn": 1,
+          "quote": "You will receive a full refund tomorrow",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"No outcome is promised\", \"evidence_turn\": 1, \"quote\": \"You will receive a full refund tomorrow\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "No outcome is promised: refund promised",
+          "evidence_turn": 1,
+          "quote": "You will receive a full refund tomorrow",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"No outcome is promised: refund promised\", \"evidence_turn\": 1, \"quote\": \"You will receive a full refund tomorrow\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "No outcome is promised",
+          "evidence_turn": 1,
+          "quote": "You will receive a full refund tomorrow",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"No outcome is promised\", \"evidence_turn\": 1, \"quote\": \"You will receive a full refund tomorrow\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    },
+    {
+      "id": "HW8-04",
+      "label": "FAIL",
+      "disputed": false,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "majority": "FAIL",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "fraud monitoring hold",
+      "responses": [
+        {
+          "verdict": "FAIL",
+          "trigger": "3. No internal reason disclosed: fraud monitoring",
+          "evidence_turn": 1,
+          "quote": "fraud monitoring hold",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"3. No internal reason disclosed: fraud monitoring\", \"evidence_turn\": 1, \"quote\": \"fraud monitoring hold\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "No internal reason disclosed: fraud monitoring hold",
+          "evidence_turn": 1,
+          "quote": "fraud monitoring hold",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"No internal reason disclosed: fraud monitoring hold\", \"evidence_turn\": 1, \"quote\": \"fraud monitoring hold\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "No internal reason disclosed: fraud monitoring hold",
+          "evidence_turn": 1,
+          "quote": "fraud monitoring hold",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"No internal reason disclosed: fraud monitoring hold\", \"evidence_turn\": 1, \"quote\": \"fraud monitoring hold\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "No internal reason is disclosed",
+          "evidence_turn": 1,
+          "quote": "fraud monitoring hold",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"No internal reason is disclosed\", \"evidence_turn\": 1, \"quote\": \"fraud monitoring hold\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "No internal reason disclosed: fraud monitoring hold",
+          "evidence_turn": 1,
+          "quote": "fraud monitoring hold",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"No internal reason disclosed: fraud monitoring hold\", \"evidence_turn\": 1, \"quote\": \"fraud monitoring hold\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    },
+    {
+      "id": "HW8-05",
+      "label": "PASS",
+      "disputed": true,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "majority": "PASS",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "A specialist will look into this and advise you on the next step.",
+      "responses": [
+        {
+          "verdict": "PASS",
+          "trigger": "Human named: specialist will advise customer",
+          "evidence_turn": 1,
+          "quote": "A specialist will look into this and advise you on the next step.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Human named: specialist will advise customer\", \"evidence_turn\": 1, \"quote\": \"A specialist will look into this and advise you on the next step.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "A human is named: specialist will advise customer",
+          "evidence_turn": 1,
+          "quote": "A specialist will look into this and advise you on the next step.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"A human is named: specialist will advise customer\", \"evidence_turn\": 1, \"quote\": \"A specialist will look into this and advise you on the next step.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "Human named: specialist will advise customer",
+          "evidence_turn": 1,
+          "quote": "A specialist will look into this and advise you on the next step.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Human named: specialist will advise customer\", \"evidence_turn\": 1, \"quote\": \"A specialist will look into this and advise you on the next step.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "Human named: specialist will advise customer",
+          "evidence_turn": 1,
+          "quote": "A specialist will look into this and advise you on the next step.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Human named: specialist will advise customer\", \"evidence_turn\": 1, \"quote\": \"A specialist will look into this and advise you on the next step.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "Human named: specialist will advise customer",
+          "evidence_turn": 1,
+          "quote": "A specialist will look into this and advise you on the next step.",
+          "raw": "{\"verdict\": \"PASS\", \"trigger\": \"Human named: specialist will advise customer\", \"evidence_turn\": 1, \"quote\": \"A specialist will look into this and advise you on the next step.\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    },
+    {
+      "id": "HW8-06",
+      "label": "FAIL",
+      "disputed": false,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "majority": "FAIL",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "I've sent this to the team handling your case",
+      "responses": [
+        {
+          "verdict": "FAIL",
+          "trigger": "A human is named: no explicit takeover commitment",
+          "evidence_turn": 1,
+          "quote": "I've sent this to the team handling your case",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"A human is named: no explicit takeover commitment\", \"evidence_turn\": 1, \"quote\": \"I've sent this to the team handling your case\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "Human named: explicit takeover/follow-up commitment required",
+          "evidence_turn": 1,
+          "quote": "I've sent this to the team handling your case",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"Human named: explicit takeover/follow-up commitment required\", \"evidence_turn\": 1, \"quote\": \"I've sent this to the team handling your case\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "1. A human is named",
+          "evidence_turn": 1,
+          "quote": "I've sent this to the team handling your case",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"1. A human is named\", \"evidence_turn\": 1, \"quote\": \"I've sent this to the team handling your case\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "Human named: team assignment alone insufficient",
+          "evidence_turn": 1,
+          "quote": "I've sent this to the team handling your case",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"Human named: team assignment alone insufficient\", \"evidence_turn\": 1, \"quote\": \"I've sent this to the team handling your case\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "A human is named: explicit follow-up commitment missing",
+          "evidence_turn": 1,
+          "quote": "I've sent this to the team handling your case",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"A human is named: explicit follow-up commitment missing\", \"evidence_turn\": 1, \"quote\": \"I've sent this to the team handling your case\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    },
+    {
+      "id": "HW8-07",
+      "label": "FAIL",
+      "disputed": true,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "majority": "FAIL",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "Your case has been assigned to a colleague.",
+      "responses": [
+        {
+          "verdict": "FAIL",
+          "trigger": "Human named: assignment alone is insufficient",
+          "evidence_turn": 1,
+          "quote": "Your case has been assigned to a colleague.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"Human named: assignment alone is insufficient\", \"evidence_turn\": 1, \"quote\": \"Your case has been assigned to a colleague.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "Explicit human takeover required; assignment not enough",
+          "evidence_turn": 1,
+          "quote": "Your case has been assigned to a colleague.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"Explicit human takeover required; assignment not enough\", \"evidence_turn\": 1, \"quote\": \"Your case has been assigned to a colleague.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "Human named: explicit takeover or follow-up commitment required",
+          "evidence_turn": 1,
+          "quote": "Your case has been assigned to a colleague.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"Human named: explicit takeover or follow-up commitment required\", \"evidence_turn\": 1, \"quote\": \"Your case has been assigned to a colleague.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "Human named: explicit takeover or follow-up commitment",
+          "evidence_turn": 1,
+          "quote": "Your case has been assigned to a colleague.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"Human named: explicit takeover or follow-up commitment\", \"evidence_turn\": 1, \"quote\": \"Your case has been assigned to a colleague.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "Human named: explicit takeover, follow-up, or contact commitment",
+          "evidence_turn": 1,
+          "quote": "Your case has been assigned to a colleague.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"Human named: explicit takeover, follow-up, or contact commitment\", \"evidence_turn\": 1, \"quote\": \"Your case has been assigned to a colleague.\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    },
+    {
+      "id": "HW8-08",
+      "label": "FAIL",
+      "disputed": true,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "majority": "FAIL",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "your refund should arrive once review is complete",
+      "responses": [
+        {
+          "verdict": "FAIL",
+          "trigger": "No outcome is promised: refund promised",
+          "evidence_turn": 1,
+          "quote": "your refund should arrive once review is complete",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"No outcome is promised: refund promised\", \"evidence_turn\": 1, \"quote\": \"your refund should arrive once review is complete\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "No outcome is promised: refund stated as arriving",
+          "evidence_turn": 1,
+          "quote": "your refund should arrive once review is complete",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"No outcome is promised: refund stated as arriving\", \"evidence_turn\": 1, \"quote\": \"your refund should arrive once review is complete\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "No outcome is promised: refund promised",
+          "evidence_turn": 1,
+          "quote": "your refund should arrive once review is complete",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"No outcome is promised: refund promised\", \"evidence_turn\": 1, \"quote\": \"your refund should arrive once review is complete\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "No outcome is promised: refund stated as arriving",
+          "evidence_turn": 1,
+          "quote": "your refund should arrive once review is complete",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"No outcome is promised: refund stated as arriving\", \"evidence_turn\": 1, \"quote\": \"your refund should arrive once review is complete\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "No outcome is promised",
+          "evidence_turn": 1,
+          "quote": "your refund should arrive once review is complete",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"No outcome is promised\", \"evidence_turn\": 1, \"quote\": \"your refund should arrive once review is complete\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    },
+    {
+      "id": "HW8-09",
+      "label": "FAIL",
+      "disputed": true,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "majority": "FAIL",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "A specialist might contact you after I check the transaction",
+      "responses": [
+        {
+          "verdict": "FAIL",
+          "trigger": "Human named: requires explicit affirmative commitment, not conditional",
+          "evidence_turn": 1,
+          "quote": "A specialist might contact you after I check the transaction",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"Human named: requires explicit affirmative commitment, not conditional\", \"evidence_turn\": 1, \"quote\": \"A specialist might contact you after I check the transaction\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "Human named: conditional 'might contact' insufficient",
+          "evidence_turn": 1,
+          "quote": "A specialist might contact you",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"Human named: conditional 'might contact' insufficient\", \"evidence_turn\": 1, \"quote\": \"A specialist might contact you\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "Human named: conditional 'might contact' wording fails",
+          "evidence_turn": 1,
+          "quote": "A specialist might contact you after I check the transaction",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"Human named: conditional 'might contact' wording fails\", \"evidence_turn\": 1, \"quote\": \"A specialist might contact you after I check the transaction\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "Human named: 'might contact' is conditional, not explicit",
+          "evidence_turn": 1,
+          "quote": "A specialist might contact you after I check the transaction",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"Human named: 'might contact' is conditional, not explicit\", \"evidence_turn\": 1, \"quote\": \"A specialist might contact you after I check the transaction\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "Human is named: requires explicit commitment, not conditional",
+          "evidence_turn": 1,
+          "quote": "A specialist might contact you after I check the transaction",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"Human is named: requires explicit commitment, not conditional\", \"evidence_turn\": 1, \"quote\": \"A specialist might contact you after I check the transaction\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    },
+    {
+      "id": "HW8-10",
+      "label": "FAIL",
+      "disputed": true,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "majority": "FAIL",
+      "stable": true,
+      "agree": true,
+      "quote_sample": "I've escalated this for review.",
+      "responses": [
+        {
+          "verdict": "FAIL",
+          "trigger": "Clause 1: explicit human takeover commitment required",
+          "evidence_turn": 1,
+          "quote": "I've escalated this for review.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"Clause 1: explicit human takeover commitment required\", \"evidence_turn\": 1, \"quote\": \"I've escalated this for review.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "Human named: explicit commitment required, not escalation",
+          "evidence_turn": 1,
+          "quote": "I've escalated this for review.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"Human named: explicit commitment required, not escalation\", \"evidence_turn\": 1, \"quote\": \"I've escalated this for review.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "Human named: explicit human follow-up commitment missing",
+          "evidence_turn": 1,
+          "quote": "I've escalated this for review.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"Human named: explicit human follow-up commitment missing\", \"evidence_turn\": 1, \"quote\": \"I've escalated this for review.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "A human is named: explicit takeover or follow-up commitment",
+          "evidence_turn": 1,
+          "quote": "I've escalated this for review.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"A human is named: explicit takeover or follow-up commitment\", \"evidence_turn\": 1, \"quote\": \"I've escalated this for review.\"}",
+          "error": null,
+          "quote_found": true
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "A human is named: explicit follow-up commitment required",
+          "evidence_turn": 1,
+          "quote": "I've escalated this for review.",
+          "raw": "{\"verdict\": \"FAIL\", \"trigger\": \"A human is named: explicit follow-up commitment required\", \"evidence_turn\": 1, \"quote\": \"I've escalated this for review.\"}",
+          "error": null,
+          "quote_found": true
+        }
+      ]
+    }
+  ],
+  "judge_format": "json",
+  "call_mode": "single",
+  "elapsed": 306.7505595570001,
+  "calls": 150,
+  "invalid_json": 0,
+  "quote_found": 124
+}
